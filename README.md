@@ -76,6 +76,8 @@ Install handlers before the application serves its first request. Registering ov
 
 For an executable application and integration examples, see [examples](examples/). For implementation and migration boundaries, see [the plan](docs/implementation-plan.md).
 
+Package build checks run on GitHub Actions, and the Python compatibility matrix is defined for CircleCI. See [CI setup](docs/ci.md) for the separate jobs and CircleCI activation steps.
+
 ## License
 
 Apache License 2.0. See [LICENSE](LICENSE).
