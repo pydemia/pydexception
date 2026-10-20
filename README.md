@@ -75,3 +75,7 @@ The catalog detects duplicates among its registered definitions. Registration is
 Install handlers before the application serves its first request. Registering over a service's custom handler requires `replace=True`. WebSocket, already started streaming responses, and background task failures are outside the HTTP response conversion contract.
 
 For an executable application and integration examples, see [examples](examples/). For implementation and migration boundaries, see [the plan](docs/implementation-plan.md).
+
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE).
